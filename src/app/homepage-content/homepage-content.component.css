@@ -1,0 +1,70 @@
+.statement
+{
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.statement_header
+{
+    font-size: 30px;
+    color: #006EDD;
+}
+.statement_text
+{
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+}
+.industry_logo
+{
+    width: 100%;
+}
+
+.iconCircle span {
+    display: table-cell;
+    width: 120px;
+    height: 120px;
+    background-color: #efefef;
+    border-radius: 50%;
+    vertical-align: middle;
+    -ms-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    font-family: "Raleway", sans-serif;
+}
+.iconCircle span:hover{
+    box-shadow: 0px 0px 0px 6px #006EDD;
+}
+.fontawesome
+{
+    font-size: 50px;
+}
+.fontawesome:hover
+{
+    font-size: 70px;
+    color: #006EDD;
+}
+.service_align
+{
+    text-align: center;
+}
+.product_link
+{
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.product_text
+{
+    font-size: 1.4em;
+    font-family: "Raleway", sans-serif;
+}
+.apps
+{
+    font-weight: 500;
+}

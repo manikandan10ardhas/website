@@ -1,0 +1,24 @@
+<mat-toolbar fxLayout="row" color="primary" class="card">
+    <img src="assets/images/codebuilder_logo.jpg" class="logo">
+    <span class="heading" fxFlex>CodeBuilders</span>
+    <button mat-button *ngFor="let item of menuItems" fxHide.xs>
+        <mat-icon class="mr" routerLink="/{{item.link}}">{{item.icon}}</mat-icon>
+        <span routerLink="/{{item.link}}">
+            {{item.label}}
+        </span>
+    </button>
+    <button mat-icon-button [matMenuTriggerFor]="dropMenu" fxHide fxShow.xs>
+        <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #dropMenu="matMenu">
+        <ng-container *ngFor="let item of menuItems">
+            <button mat-menu-item routerLink="{{item.link}}">
+                <mat-icon class="mr">{{item.icon}}</mat-icon>
+                <span routerLink="/{{item.link}}">
+                    {{item.label}}
+                </span>
+            </button>
+            <mat-divider></mat-divider>
+        </ng-container>
+    </mat-menu>
+</mat-toolbar>

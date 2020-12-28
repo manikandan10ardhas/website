@@ -1,0 +1,42 @@
+.logo_text
+{
+    color: #006EDD;
+}
+.container-fluid
+{
+    background-color: #006EDD;
+    height: 500px;
+}
+.form-control {
+    position: relative;
+    z-index: 1;
+    border-radius: 0;
+    border-width: 0 0 2px;
+    border-bottom-color: rgba(0,0,0,0.25);
+    height: auto;
+    box-shadow: none;
+    padding: 3px 0 5px;
+}
+.form-control:focus
+{
+    box-shadow: none;
+    border-bottom-color:#006EDD;
+}
+.card-header
+{
+    background-color: white;
+}
+label
+{
+    font-weight: 550;
+    font-size: larger;
+}
+.formdiv
+{
+    background-color: white;
+    border-radius: 10px;
+}
+.info-color
+{
+    background-color: #006EDD !important;
+}

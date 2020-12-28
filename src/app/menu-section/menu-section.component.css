@@ -1,0 +1,23 @@
+.mat-toolbar.mat-primary {
+    background: white;
+}
+.mat-button
+{
+    color: black;
+}
+.mat-button:hover
+{
+    color: #006EDD;
+}
+.heading
+{
+    color: #006EDD;
+}
+.logo
+{
+    width: 100px;
+}
+.mat-icon
+{
+    color: black !important;
+}
